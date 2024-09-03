@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    background-color: #d4d4d4;
+    color: #fff;
+    
+}
+header img{
+    width: 200px;
+    height: auto;
+    margin: 0%;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    text-align: center;}
+    
+.banner img{
+    width:1000px;    
+border-radius: 16px;
+margin: 1%;
+}
+
+.icones{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.circulo{
+    width:  50vw;
+    height: 50vh;
+    background-image: url("logo.png");
+    border-radius: 50%;
+}
+.texto-imagem{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border:  1px inset lightgray;
+    height: 30vh;
+    width: 70vw;
+    -webkit-box-shadow: 0px 0px 5px 14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 14px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 14px rgba(0,0,0,0.75);
+}
+.texto .imagem{
+    margin:  5em;
+
+}
+.imagem{
+    background-image: url("fc-25.jpg");
+    background-size: cover;
+    width: 100%;
+}
+.produtos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+
+}
+.quadrado{
+    width:  20vw;
+    height: 45vh;
+    background-image: url("gta.jpg");
+    background-size: cover;
+    margin: 2em;
+
+
+}
+.produto{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+
+}
+.quadrado2{
+    width:  20vw;
+    height: 45vh;
+    background-image: url("simulator.jpg");
+    background-size: cover;
+    margin: 2em;
+}
+.produt{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+
+}
+.quadrado3{
+    width:  20vw;
+    height: 45vh;
+    background-image: url("the\ last.jpg");
+    background-size: cover;
+    margin: 2em;
+}
+
+
+footer{
+    margin: 2em;
+    display: flex;
+    justify-content: center;
+    text-align: end;
+    -webkit-box-shadow: 0px 0px 18px 4px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 18px 4px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 18px 4px rgba(0,0,0,0.75);
+} 
